@@ -4,12 +4,8 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-main {
-  background-color: rgb(206, 249, 246);
-}
-
 footer {
-  background-color: #000000;
+  background: linear-gradient(45deg, #3b3b3b, #202020);
   text-align: center;
   padding-bottom: 20px;
   margin-top: -20px;
@@ -63,17 +59,22 @@ nav a:hover {
   border-radius: 6px;
 }
 
-footer img {
+#social-links img{
   width: 50px;
   margin: 30px 20px 0 20px;
+  padding-bottom: 10px;
 }
 
-#legals a{
+#footer-items {
+  list-style: none;
+}
+
+#legals a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
 }
 
-#legals a:hover{
+#legals a:hover {
   text-decoration: underline;
 }
