@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(45deg, #d8f6f5, #97d5d2);
+  color: #3e3e3e;
+}
+
+#header-container {
+  position: static;
+}
+
+#destinations-list {
+  list-style: none;
+  width: 80%;
+  margin: 20px auto 50px auto;
+}
+
+.destination-cards {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-actions{
+    text-align: right;
+}
+
+.card-actions a {
+  color: rgb(22, 211, 228);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.card-actions a:hover{
+    background-color: rgba(22, 211, 228, 0.15);
+    border-radius: 5px;
+}
+
+.destination-cards img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
